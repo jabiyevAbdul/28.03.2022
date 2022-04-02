@@ -1,0 +1,589 @@
+.headerImage {
+  position: relative;
+  width: 100%;
+}
+
+.headerImage .h1shop {
+  position: absolute;
+  top: 15%;
+  left: 47%;
+  color: white;
+  font-size: 46px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+}
+
+.headerImage .shop-ul {
+  position: absolute;
+  margin-top: 50px;
+  top: 20%;
+  left: 46.333%;
+}
+
+.headerImage .shop-ul ul li a {
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: white;
+  font-size: 14px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.headerImage .shop-ul ul li a:hover {
+  color: black;
+}
+
+.headerImage .shop-ul ul li i {
+  font-size: 14px;
+  color: white;
+}
+
+.headerImage .shopsmallimg {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+}
+
+.headerImage .shopsmallimg img {
+  margin-left: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.headerImage .imgicon i {
+  position: absolute;
+  color: white;
+  top: 63%;
+  left: 73%;
+  padding: 10px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.headerImage .imgicon i:hover {
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  background-color: #2DBBF0;
+}
+
+.headerImage .shpimgtext {
+  color: white;
+  position: absolute;
+  top: 87%;
+  left: 23%;
+}
+
+.headerImage .shpimgtext span {
+  margin-left: 64px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.headerImage .shpimgtext .digitals {
+  margin-left: 67px;
+}
+
+.headerImage .shpimgtext .backpacks {
+  margin-left: 50px;
+}
+
+.headerImage .shpimgtext .wallets {
+  margin-left: 70px;
+}
+
+.headerImage .shpimgtext .watches {
+  margin-left: 72px;
+}
+
+.filter {
+  margin-top: 30px;
+  height: 15vh;
+  width: 100%;
+}
+
+.filter .container2 {
+  width: 95%;
+  margin: auto;
+}
+
+.filter .container2 .filtera a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #2DBBF0;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.filter .container2 .filtera a:hover {
+  background-color: black;
+}
+
+.filter .container2 .spanbox span {
+  font-size: .9375rem;
+  color: #979797;
+}
+
+.filter .container2 .gridicon .lasicon {
+  color: #2dbbf0;
+}
+
+.filter .container2 .gridicon i {
+  padding: 3px;
+  color: #979797;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.filter .container2 .gridicon i:hover {
+  color: #2DBBF0;
+}
+
+.filter .container2 .defaultsort {
+  padding: 10px 20px;
+  border: 1px solid #97979752;
+  cursor: pointer;
+}
+
+.filter .container2 .defaultsort span {
+  color: #979797;
+  font-size: 14px;
+}
+
+.filter .container2 .defaultsort span:hover {
+  color: #2DBBF0;
+}
+
+.filter .container2 .defaultsort span i {
+  color: black;
+  font-size: 10px;
+}
+
+.shoproducts h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.shoproducts h6:hover {
+  color: #2dbbf0;
+}
+
+.shoproducts span {
+  color: #888;
+}
+
+.shoproducts span em {
+  font-style: normal;
+  color: rgba(136, 136, 136, 0.562);
+  text-decoration: line-through;
+}
+
+.shoproducts img {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.shoproducts img:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+  overflow: hidden;
+}
+
+.shoproducts .container2 {
+  width: 95%;
+  margin: auto;
+}
+
+.shoproducts .container2 .prod1txt a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.shoproducts .container2 .prod1txt a:hover {
+  color: #2DBBF0;
+}
+
+.shoproducts .container2 .prod1txt p {
+  color: #888;
+}
+
+.shoproducts .container2 .prod1txt i {
+  padding: 3px;
+}
+
+.shoproducts .container2 .prod1txt i:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.shoproducts .container2 .prod1txt i:last-child {
+  color: #FFF6E8;
+}
+
+.shoproducts .container2 .prod2 {
+  position: relative;
+}
+
+.shoproducts .container2 .prod2 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod3 {
+  position: relative;
+  cursor: pointer;
+}
+
+.shoproducts .container2 .prod3 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod7 {
+  position: relative;
+}
+
+.shoproducts .container2 .prod7 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod9 {
+  position: relative;
+}
+
+.shoproducts .container2 .prod9 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod10txt ul li i {
+  font-size: 13px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.shoproducts .container2 .prod10txt ul li i:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.shoproducts .container2 .prod10txt ul li:last-child {
+  color: yellow;
+}
+
+.shoproducts .container2 .prod10txt ul .green {
+  color: green;
+}
+
+.shoproducts .container2 .prod10txt ul .purple {
+  color: purple;
+}
+
+.shoproducts .container2 .prod11txt ul li i {
+  font-size: 13px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.shoproducts .container2 .prod11txt ul li i:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.shoproducts .container2 .prod11txt ul li:last-child {
+  color: white;
+}
+
+.shoproducts .container2 .prod20txt ul li i {
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.shoproducts .container2 .prod20txt ul li i:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.shoproducts .container2 .prod20txt ul li:last-child {
+  color: orange;
+}
+
+.shoproducts .container2 .prod20txt ul .blue {
+  color: blue;
+}
+
+.shoproducts .container2 .prod22 {
+  position: relative;
+}
+
+.shoproducts .container2 .prod22 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod26 {
+  position: relative;
+}
+
+.shoproducts .container2 .prod26 .percentage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+  padding: 2px 10px;
+  background-color: #6AE08C;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.shoproducts .container2 .prod25txt ul li i {
+  font-size: 11px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.shoproducts .container2 .prod25txt ul li i:hover {
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.shoproducts .container2 .prod25txt ul li:last-child {
+  color: purple;
+}
+
+.shoproducts .container2 .prod25txt ul .blue {
+  color: blue;
+}
+
+.shoproducts .container2 .prod25txt ul .grey {
+  color: grey;
+}
+
+.shoproducts .container2 .prod25txt ul .orange {
+  color: orange;
+}
+
+.shoproducts .container2 .prodatxt span {
+  text-transform: uppercase;
+  display: inline-block;
+  color: #000;
+  background: #f1f1f1;
+  font-weight: 400;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .headerImage {
+    width: 100%;
+  }
+  .headerImage img {
+    height: 40vh;
+  }
+  .headerImage .h1shop {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 10%;
+    left: 41%;
+  }
+  .headerImage .shopsmallimg {
+    position: absolute;
+    top: 48%;
+    left: 8%;
+  }
+  .headerImage .shopsmallimg img {
+    height: 20%;
+    width: 20%;
+  }
+  .headerImage .shopsmallimg .imag1 {
+    display: none;
+  }
+  .headerImage .shopsmallimg .imag2 {
+    display: none;
+  }
+  .headerImage .shop-ul {
+    position: absolute;
+    top: 8%;
+    left: 38%;
+  }
+  .headerImage .shop-ul ul li {
+    font-size: 10px;
+  }
+  .headerImage .shop-ul ul li a {
+    font-size: 10px;
+  }
+  .headerImage .imgicon i {
+    top: 60%;
+    left: 87%;
+  }
+  .headerImage .shpimgtext {
+    position: absolute;
+    left: -10%;
+    top: 86%;
+  }
+  .headerImage .shpimgtext span {
+    font-size: 13px;
+  }
+  .headerImage .shpimgtext .accessories {
+    margin-left: 102px;
+  }
+  .headerImage .shpimgtext .backpacks {
+    margin-left: 35px;
+  }
+  .headerImage .shpimgtext .digitals {
+    margin-left: 50px;
+  }
+  .headerImage .shpimgtext .wallets {
+    display: none;
+  }
+  .headerImage .shpimgtext .watches {
+    display: none;
+  }
+  .filter .spanbox {
+    display: none;
+  }
+  .filter .gridicon {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .headerImage {
+    width: 100%;
+  }
+  .headerImage img {
+    height: 40vh;
+  }
+  .headerImage .h1shop {
+    font-size: 2.2rem;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+  }
+  .headerImage .shopsmallimg {
+    position: absolute;
+    top: 46%;
+    left: 22%;
+  }
+  .headerImage .shopsmallimg img {
+    height: 20%;
+    width: 20%;
+  }
+  .headerImage .shopsmallimg .imag1 {
+    display: none;
+  }
+  .headerImage .shopsmallimg .imag2 {
+    display: none;
+  }
+  .headerImage .shop-ul {
+    position: absolute;
+    top: 7%;
+    left: 42.555%;
+  }
+  .headerImage .shop-ul ul li {
+    font-size: 10px;
+  }
+  .headerImage .shop-ul ul li a {
+    font-size: 10px;
+  }
+  .headerImage .imgicon i {
+    top: 60%;
+    left: 65%;
+  }
+  .headerImage .shpimgtext {
+    position: absolute;
+    left: 13%;
+    top: 88%;
+  }
+  .headerImage .shpimgtext span {
+    font-size: 13px;
+  }
+  .headerImage .shpimgtext .accessories {
+    margin-left: 105px;
+  }
+  .headerImage .shpimgtext .backpacks {
+    margin-left: 45px;
+  }
+  .headerImage .shpimgtext .digitals {
+    margin-left: 50px;
+  }
+  .headerImage .shpimgtext .wallets {
+    display: none;
+  }
+  .headerImage .shpimgtext .watches {
+    display: none;
+  }
+  .filter .spanbox {
+    display: none;
+  }
+  .filter .gridicon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=shop.css.map */
